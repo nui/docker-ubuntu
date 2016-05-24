@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 RUN apt-get -y update \
     && apt-get -y upgrade \
-    && apt-get -y install python3 tmux zsh \
+    && apt-get -y install curl python3 tmux zsh \
 
     && locale-gen en_US.UTF-8 \
     && update-locale LANG=en_US.UTF-8 \
